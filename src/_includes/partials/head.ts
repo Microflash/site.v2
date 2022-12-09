@@ -39,6 +39,7 @@ export default function (metaInfo: MetaInfo) {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>${metaInfo.title} &mdash; ${app.title}</title>
 	<link rel="stylesheet" href="/styles.css">
+	<script src="/main.js" type="module"></script>
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any">
 	<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 	<meta name="color-scheme" content="dark light">

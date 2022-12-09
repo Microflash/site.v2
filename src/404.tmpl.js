@@ -13,7 +13,7 @@ export default function () {
 			url: url
 		},
 		slots: {
-			hero: `<h1 x-data="{ messages: ['This page is missing.', 'There is nothing here.', 'This link is broken.'], getMessage() { return this.messages[Math.floor(Math.random() * this.messages.length)] } }" x-text="getMessage()" class="hero-title"></h1>
+			hero: `<h1><random-404></random-404></h1>
 			<div class="hero-details">
 				<div class="hero-details-item">${search()}</div>
 				<div class="hero-details-item"><a href="/posts/" class="button">Browse other posts</a></div>
